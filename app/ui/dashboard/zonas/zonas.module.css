@@ -11,11 +11,24 @@
     justify-content: space-between;
 }
 
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
 .button{
-    padding: 10px;
+    padding: 5px 10px;
     background-color: #5d57c9;
     color: var(--text);
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+    padding: 20px;
 }

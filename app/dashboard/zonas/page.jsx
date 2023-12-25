@@ -11,7 +11,34 @@ const ZonasPage = () => {
                     <button className={styles.button}>Agregar zona</button>
                 </Link>
             </div>
-            <table className={styles.table}></table>
+            <table className={styles.table}>
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Geometry</td>
+                        <td>Created</td>
+                        <td>Actions</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>test 1</td>
+                        <td>coordenada test 1</td>
+                        <td>24-12-2023</td>
+                        <td>
+                            <div className={styles.buttons}>
+                                <Link href="">
+                                    <button className={`${styles.button}`}>Ver</button>
+                                </Link>
+                                <Link href="">
+                                <button className={`${styles.button}`}>Editar</button>
+                                </Link>
+                                <button className={`${styles.button}`}>Editar</button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     )
 }
